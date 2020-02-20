@@ -62,6 +62,7 @@ void loop()
   }
   else 
   {
+    digitalWrite(7, LOW);
    Serial.println("stop");
   }
   delay(1000); 
